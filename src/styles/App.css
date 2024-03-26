@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    margin: 10px 20px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+.app-body {
+    margin: 10px 20px;
+    padding: 20px 20px;
+    border: 1px solid gray;
+}
+
+.restaurent-body {
+    margin: 10px 20px;
+    padding: 20px 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    border: 1px solid gray;
+}
+
+.card-data {
+    height: auto;
+    width: auto;
+    border: 1px solid gray;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.card-data p {
+    word-wrap: break-word;
+}
+
+.card-data:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    box-shadow: 5%;
+    border: 1px solid black;
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logoDiv {
+    width: 20%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav li {
+    list-style: none;
+    color: black;
+    margin: 0 10px;
+}
+
+.nav li a {
+    text-decoration: none;
+}
+
+.nav li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.restaurent-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.searchForm {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 40%;
+}
+
+.searchLable {
+    font-size: x-large;
+}
+
+.searchInput {
+    padding: 5px;
+    border: 1px solid black;
+    width: 100%
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.sort-btn {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.sort-btn:hover {
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.search {
+    padding: 10px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: large;
+}
